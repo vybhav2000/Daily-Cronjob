@@ -1,6 +1,6 @@
-!#/bin/sh
+#!/bin/sh
 
-export DATE= $(date)
+DATE= $(date)
 if [ -f ./datefile.txt ]
 then 
   echo $DATE >> datefile.txt
