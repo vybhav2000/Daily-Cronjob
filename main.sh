@@ -1,3 +1,5 @@
+!#/bin/sh
+
 export DATE= $(date)
 if [ -f ./datefile.txt ]
 then 
