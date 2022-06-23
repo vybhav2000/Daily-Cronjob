@@ -25,6 +25,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a daily cron job
-        run: ./main.sh
+        run: 
+          chmod +x ./main.sh
+          ./main.sh
         shell: bash
 
